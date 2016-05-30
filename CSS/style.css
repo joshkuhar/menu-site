@@ -1,0 +1,27 @@
+* {
+	outline: red 1px solid;
+}
+
+
+
+header {
+	text-align: center;
+}
+.container {
+	display: inline-block;
+}
+.output {
+	text-align: center;
+	margin-left:;
+	width: 75%;
+}
+.sidebar {
+	text-align: center;
+	width: 25%;
+	margin-right: 5em;
+	/*margin-top: 10em;*/
+	/*float: right;*/
+	position: absolute;
+	right: 0em;
+}
+
