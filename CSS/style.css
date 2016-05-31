@@ -2,26 +2,32 @@
 	outline: red 1px solid;
 }
 
-
-
 header {
 	text-align: center;
 }
 .container {
-	display: inline-block;
+	text-align: center;
 }
 .output {
 	text-align: center;
-	margin-left:;
+	margin-left: 0;
 	width: 75%;
 }
 .sidebar {
 	text-align: center;
 	width: 25%;
-	margin-right: 5em;
+	/*margin-right: 5em;*/
 	/*margin-top: 10em;*/
 	/*float: right;*/
 	position: absolute;
 	right: 0em;
 }
+.output-2 {
+	margin-top: 5em;
+	width: 75%;
+	text-align: center;
+}
 
+.menu-items {
+	padding-left: 0em;
+}
