@@ -8,26 +8,37 @@ header {
 .container {
 	text-align: center;
 }
-.output {
+.items-added {
 	text-align: center;
 	margin-left: 0;
 	width: 75%;
 }
+.text-added{
+
+}
+.add-button-clicked {
+	
+}
 .sidebar {
 	text-align: center;
 	width: 25%;
-	/*margin-right: 5em;*/
-	/*margin-top: 10em;*/
-	/*float: right;*/
 	position: absolute;
 	right: 0em;
 }
-.items-added {
-	margin-top: 5em;
+.main-menu {
 	width: 75%;
 	text-align: center;
+	display: block;
 }
-
-.menu-items {
+.items-added {
 	padding-left: 0em;
+	text-align: center;
+	display: block;
+}
+.prices {
+	width: 25%;
+	padding-left: 0em;
+	display: block;
+}
+.menu {
 }
