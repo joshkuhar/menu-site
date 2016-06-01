@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<section class="container">
+	<div class="container">
 		<h1>Menu Maker</h1>
 		<div class="sidebar">
 			<div>Add Item</div>
@@ -19,21 +19,15 @@
 			<h3>Menu</h3>
 			<section class="menu">
 				<ul class="food-list">
-					<li>Meatball Sandwich</li>
-					<li>Grilled Cheese</li>
+					<li>Meatball Sandwich <button class="remove-item-btn">remove</button></li>
+					<li>Grilled Cheese <span>$5.00</span></li>
 					<li>Ham Sandwich</li>
 					<li>Peanut Butter and Jelly</li>
 				</ul>
-				<ul class="prices">
-					<li>$5.00</li>
-					<li>$5.50</li>
-					<li>$3.50</li>
-					<li>$2.00</li>
-				</ul>
 			</section>
 		</div>
-	</section>
-	<script src="http://code.jquery.com/jquery.min.js"></script>
+	</div>
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 	<script src="app.js"></script>
 </body>
 </html>
