@@ -1,16 +1,11 @@
 $(".add-item-button").click(function() {
 	$(".food-list").append('<li>' +$(".add-item-input").val()+ '</li>'); 
 	$(".add-item-input").empty();
-	//console.log("check");
+	console.log("check");
 	});
 
-/*$(".remove-item-btn").click(function() {
-	$("li").empty().parent();
-	console.log("check");
-});*/
-
 $(".remove-item-btn").click(function() {
-	$("li").remove()/*.parent(".remove-item-btn")*/;
+	$(this).parent().remove();
 	console.log("check");
 });
 
