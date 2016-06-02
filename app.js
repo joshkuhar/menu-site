@@ -10,7 +10,7 @@ $(".remove-item-btn").click(function() {
 });
 
 /*$('food-list').on('click', 'li', function(event){
-	$("li").val().remove();
+	//$("li").val().remove();
   // fires when any LIs are clicked on
   // including LIs that aren't on the page when it is initially loaded
 });*/
