@@ -1,6 +1,6 @@
 $(".add-item-button").click(function() {
-	$(".food-list").append('<li>' +$(".add-item-input").val()+ '</li>'); 
-	$(".add-item-input").empty();
+	$(".food-list").append('<li>' +$(".add-item-input").val()+ ' <button class="remove-item-btn">remove</button></li>'); 
+	$(".add-item-input").val("");
 	console.log("check");
 	});
 
