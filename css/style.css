@@ -1,0 +1,42 @@
+* {
+	outline: red 1px solid;
+}
+
+header {
+	text-align: center;
+}
+.container {
+	text-align: center;
+}
+.items-added {
+	text-align: center;
+	margin-left: 0;
+	width: 75%;
+}
+.add-item-input{
+
+}
+.add-item-button{
+	
+}
+.sidebar {
+	text-align: center;
+	width: 25%;
+	position: absolute;
+	right: 0em;
+}
+.main-menu {
+	width: 75%;
+	text-align: center;
+	display: block;
+}
+.food-list{
+	padding-left: 0em;
+	text-align: center;
+	display: block;
+}
+.menu {
+}
+.remove-item-btn {
+	
+}
