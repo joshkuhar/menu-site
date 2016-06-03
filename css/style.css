@@ -1,12 +1,22 @@
 * {
 	outline: red 1px solid;
 }
-
+body {
+	background-color: #E9F5EC;
+}
 header {
 	text-align: center;
+	font-family: 'Great Vibes', cursive;
+}
+h2 {
+	font-family: 'Tangerine', cursive;
+	font-weight: 800;
+  	font-size: 2.5em;
 }
 .container {
 	text-align: center;
+	background-color: #DEF5E5;
+	padding: 1em;
 }
 .items-added {
 	text-align: center;
@@ -24,19 +34,33 @@ header {
 	width: 25%;
 	position: absolute;
 	right: 0em;
+	background-color: #AFDEC7;
 }
 .main-menu {
 	width: 75%;
 	text-align: center;
 	display: block;
+	background-color: #F5F1DE;
+	
+}
+.food-list li .remove-item-btn {
+	text-align: left;
 }
 .food-list{
-	padding-left: 0em;
+	padding: 1em;
 	text-align: center;
-	display: block;
+	display: inline-block;
+	list-style-type: none;
+	border: .1em double red;
+	font-family: 'Tangerine', cursive;
+	font-size: 1.5em;
 }
 .menu {
+	padding: .2em;
+}
+.menu-item {
+
 }
 .remove-item-btn {
-	
+
 }
