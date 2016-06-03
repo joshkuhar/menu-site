@@ -1,17 +1,20 @@
-* {
+/* {
 	outline: red 1px solid;
-}
+}*/
 body {
 	background-color: #E9F5EC;
 }
-header {
-	text-align: center;
+h1 {
 	font-family: 'Great Vibes', cursive;
+	font-weight: 800;
+  	font-size: 3em;
+  	margin-bottom: 1em;
 }
 h2 {
 	font-family: 'Tangerine', cursive;
 	font-weight: 800;
-  	font-size: 2.5em;
+  	font-size: 3em;
+  	color: red;
 }
 .container {
 	text-align: center;
@@ -27,7 +30,7 @@ h2 {
 
 }
 .add-item-button{
-	
+	border-radius: 10%;
 }
 .sidebar {
 	text-align: center;
@@ -51,16 +54,26 @@ h2 {
 	text-align: center;
 	display: inline-block;
 	list-style-type: none;
-	border: .1em double red;
-	font-family: 'Tangerine', cursive;
+	border: .01em solid red;
 	font-size: 1.5em;
+	color: red;
+}
+h3 {
+	font-size: 2em;
+	margin-bottom: 0;
 }
 .menu {
 	padding: .2em;
+	width: 30em;
+	margin: 0 auto;
+	border: .2em double red;
+	font-family: 'Tangerine', cursive;
+	color: red;
 }
 .menu-item {
 
 }
 .remove-item-btn {
-
+	border-radius: 15%;
+	background-color: #E9F5EC;
 }
