@@ -10,27 +10,10 @@ h1 {
   	font-size: 3em;
   	margin-bottom: 1em;
 }
-h2 {
-	font-family: 'Tangerine', cursive;
-	font-weight: 800;
-  	font-size: 3em;
-  	color: red;
-}
 .container {
 	text-align: center;
 	background-color: #DEF5E5;
 	padding: 1em;
-}
-.items-added {
-	text-align: center;
-	margin-left: 0;
-	width: 75%;
-}
-.add-item-input{
-
-}
-.add-item-button{
-	border-radius: 10%;
 }
 .sidebar {
 	text-align: center;
@@ -39,15 +22,34 @@ h2 {
 	right: 0em;
 	background-color: #AFDEC7;
 }
+.add-item-input{
+}
+.add-item-button{
+	border-radius: 10%;
+}
 .main-menu {
 	width: 75%;
 	text-align: center;
 	display: block;
 	background-color: #F5F1DE;
-	
 }
-.food-list li .remove-item-btn {
-	text-align: left;
+h2 {
+	font-family: 'Tangerine', cursive;
+	font-weight: 800;
+  	font-size: 3em;
+  	color: red;
+}
+.menu {
+	padding: .2em;
+	width: 30em;
+	margin: 0 auto;
+	border: .2em double red;
+	font-family: 'Tangerine', cursive;
+	color: red;
+}
+h3 {
+	font-size: 2em;
+	margin-bottom: 0;
 }
 .food-list{
 	padding: 1em;
@@ -58,20 +60,7 @@ h2 {
 	font-size: 1.5em;
 	color: red;
 }
-h3 {
-	font-size: 2em;
-	margin-bottom: 0;
-}
-.menu {
-	padding: .2em;
-	width: 30em;
-	margin: 0 auto;
-	border: .2em double red;
-	font-family: 'Tangerine', cursive;
-	color: red;
-}
 .menu-item {
-
 }
 .remove-item-btn {
 	border-radius: 15%;
